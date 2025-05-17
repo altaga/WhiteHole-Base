@@ -18,11 +18,11 @@ VIDEODEMO: [VIDEO](https://youtu.be/7ZjjKlUkQCA)
 
 <img src="./Images/Payments.drawio.png">
 
-- Basenames: Implementamos los Basenames como identidad de los usuarios, asi todos los metodos de pago se validad con el basename y la credencial del usuario que se muestre, ya sea el rostro, qr o tarjeta bancaria.
+- Basenames: We implemented Basenames as user identities, so all payment methods are validated with the basename and the user ID shown, whether it's a face, QR code, or bank card.
 
-- Networks: aunque la wallet esta enfocada al uso de Base Mainnet, es compatible con todas las demas redes populares del ecosistema de Ethereum.
+- Networks: Although the wallet is focused on using Base Mainnet, it is compatible with all other popular networks in the Ethereum ecosystem.
 
-- Face Recognition: Para los pagos realizados con rostro se realiza una comprobacion de identidad biometirca y filtro anti spoofing.
+- Face Recognition: For payments made by face, a biometric identity check and anti-spoofing filter are performed.
 
 - USDC and EURC: We have incorporated stablecoins such as USDC and EURC as recommended payment options, as they maintain a 1:1 ratio with real assets, allowing businesses and users to send and receive crypto assets safely without risking market volatility.
 
@@ -30,7 +30,7 @@ VIDEODEMO: [VIDEO](https://youtu.be/7ZjjKlUkQCA)
 
 <img src="./Images/chat.drawio.png">
 
-- Basenames: Implementamos los Basenames como identificadores de los chats y a su vez como una forma sencilla de mandar mensajes y transferencias onchain o crosschain.
+- Basenames: We implemented Basenames as chat identifiers and as an easy way to send messages and transfer on-chain or cross-chain.
 
 - Standard Relayer: We use this relayer in our chat contract to be able to communicate messages between chains.
 
@@ -42,11 +42,11 @@ Now we are going to describe the main features of our application as well as the
 
 ## Basenames:
 
-Dentro de nuestra wallet utilizamos un componente personalizado que se encarga de proveer a la wallet todas las features basadas en Basenames asi como resolver los ENS de los mismos.
+Within our wallet, we use a custom component that is responsible for providing the wallet with all the Basename-based features as well as resolving their ENS.
 
 <img src="./Images/base1.jpg" width="32%"> <img src="./Images/base2.jpg" width="32%"> <img src="./Images/base3.jpg" width="32%">
 
-Este componente tiene las siguientes funciones.
+This component has the following functions.
 
 - Get the correct cointype.
 
@@ -278,7 +278,7 @@ All technical implementations for transactions are included here.
 
 ## FaceDID and QR:
 
-Parte de la inovacion de los pagos con crypto es la capacidad de mejorar la accesibilidad, al ser sistemas decentralizados, esto nos deja la posibilidad de realizar pagos mediante el rostro o un QR de forma muy sencilla y segura.
+Part of the innovation of crypto payments is the ability to improve accessibility. As decentralized systems, this allows us to make payments using a face or a QR code in a very simple and secure way.
 
 <img src="./Images/face1.jpg" width="32%"> <img src="./Images/face2.jpg" width="32%"> <img src="./Images/face3.jpg" width="32%">
 
