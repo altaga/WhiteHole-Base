@@ -1,0 +1,40 @@
+{
+  "chains": [
+    {
+      "description": "Ethereum",
+      "chainId": 2,
+      "rpc": "https://ethereum-rpc.publicnode.com/",
+      "wormholeRelayer": "0x27428DD2d3DD32A4D7f7C497eAaa23130d894911",
+      "circleRelayer": "0x4cb69FaE7e7Af841e44E1A1c30Af640739378bb2",
+      "USDC": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "coingecko": "ethereum"
+    },
+    {
+      "description": "Avalanche",
+      "chainId": 6,
+      "rpc": "https://avalanche-c-chain-rpc.publicnode.com/",
+      "wormholeRelayer": "0x27428DD2d3DD32A4D7f7C497eAaa23130d894911",
+      "circleRelayer": "0x4cb69FaE7e7Af841e44E1A1c30Af640739378bb2",
+      "USDC": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E",
+      "coingecko": "avalanche-2"
+    },
+    {
+      "description": "Polygon",
+      "chainId": 5,
+      "rpc": "https://polygon-bor-rpc.publicnode.com/",
+      "wormholeRelayer": "0x27428DD2d3DD32A4D7f7C497eAaa23130d894911",
+      "circleRelayer": "0x4cb69FaE7e7Af841e44E1A1c30Af640739378bb2",
+      "USDC": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "coingecko": "matic-network"
+    },
+    {
+      "description": "Arbitrum",
+      "chainId": 23,
+      "rpc": "https://arbitrum-one-rpc.publicnode.com/",
+      "wormholeRelayer": "0x27428DD2d3DD32A4D7f7C497eAaa23130d894911",
+      "circleRelayer": "0x4cb69FaE7e7Af841e44E1A1c30Af640739378bb2",
+      "USDC": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+      "coingecko": "ethereum"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "multichain-chat",
+  "version": "1.0.0",
+  "description": "**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:estimate": "node script/deployChatEstimation.js",
+    "deploy:onchain": "node script/deployChat.js",
+    "send:message": "node script/sendMessage.js",
+    "send:estimate": "node script/sendMessageEstimation.js",
+    "get:messages": "node script/getMessages.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "eth-crypto": "^2.6.0",
+    "ethereum-cryptography": "^3.0.0",
+    "ethers": "^5.7.2"
+  }
+}

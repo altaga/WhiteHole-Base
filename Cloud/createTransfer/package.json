@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+      "@google-cloud/functions-framework": "^3.0.0",
+      "@google-cloud/firestore": "^7.6.0",
+      "@circle-fin/developer-controlled-wallets": "^4.5.1",
+      "@circle-fin/smart-contract-platform": "^4.3.0",
+      "ethers": "^5.7.2",
+      "node-forge": "^1.3.1"
+    }
+  }
+  

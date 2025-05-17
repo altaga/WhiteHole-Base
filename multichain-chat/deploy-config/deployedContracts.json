@@ -1,0 +1,14 @@
+{
+  "avax": {
+    "MultiChainChat": "0x66AB0dB3A3D9E489B32D4415AFd673968338c69E",
+    "deployedAt": 1728461483573
+  },
+  "arb": {
+    "MultiChainChat": "0x3f2721a16F877aCf2D06244d4C5648A30805B3Be",
+    "deployedAt": 1728461483573
+  },
+  "pol": {
+    "MultiChainChat": "0x3f2721a16F877aCf2D06244d4C5648A30805B3Be",
+    "deployedAt": 1728461483573
+  }
+}

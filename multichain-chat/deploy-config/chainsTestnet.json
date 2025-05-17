@@ -1,0 +1,34 @@
+{
+  "chains": [
+    {
+      "name": "arb",
+      "description": "Arbitrum Sepolia",
+      "chainId": 10003,
+      "rpc": "https://arbitrum-sepolia-rpc.publicnode.com",
+      "wormholeRelayer": "0x7B1bD7a6b4E61c2a123AC6BC2cbfC614437D0470",
+      "circleRelayer": "0x6b9C8671cdDC8dEab9c719bB87cBd3e782bA6a35",
+      "USDC": "0x75faf114eafb1BDbe2F0316DF893fd58CE46AA4d",
+      "coingecko": "ethereum"
+    },
+    {
+      "name": "avax",
+      "description": "Avalanche fuji",
+      "chainId": 6,
+      "rpc": "https://avalanche-fuji-c-chain-rpc.publicnode.com",
+      "wormholeRelayer": "0xA3cF45939bD6260bcFe3D66bc73d60f19e49a8BB",
+      "circleRelayer": "0x6b9C8671cdDC8dEab9c719bB87cBd3e782bA6a35",
+      "USDC": "0x5425890298aed601595a70ab815c96711a31bc65",
+      "coingecko": "avalanche-2"
+    },
+    {
+      "name": "op",
+      "description": "Optimisim Sepolia",
+      "chainId": 10005,
+      "rpc": "https://optimism-sepolia-rpc.publicnode.com",
+      "wormholeRelayer": "0x93BAD53DDfB6132b0aC8E37f6029163E63372cEE",
+      "circleRelayer": "0x6b9C8671cdDC8dEab9c719bB87cBd3e782bA6a35",
+      "USDC": "0x5425890298aed601595a70ab815c96711a31bc65",
+      "coingecko": "ethereum"
+    }
+  ]
+}
